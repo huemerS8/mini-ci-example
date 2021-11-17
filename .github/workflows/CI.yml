@@ -53,5 +53,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: simi89/app:latest
+          tags: simi89/app:${{ steps.vars.outputs.sha_short }}
     
