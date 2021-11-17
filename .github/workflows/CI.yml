@@ -53,4 +53,5 @@ jobs:
         with:
           context: .
           push: true
+          tags: simi89/app:latest
     
